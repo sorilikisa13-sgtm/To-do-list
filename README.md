@@ -1,9 +1,10 @@
 # To-Do List App 📝
-
-A simple and responsive To-Do List web application built using **HTML, CSS, and JavaScript**.  
-It helps users add, manage, edit, and delete tasks while tracking active and completed tasks in real time.
+This is a simple and responsive To-Do List web application built using **HTML, CSS, and JavaScript**.  
+It allows users to easily create, manage, and track daily tasks in a clean and interactive interface.
 
 ---
+
+
 
 ## 🚀 Features
 
@@ -45,4 +46,13 @@ It helps users add, manage, edit, and delete tasks while tracking active and com
 1. Download or clone the project:
 ```bash
 git clone https://github.com/sorilikisa13-sgtm/todo-list-app.git
-
+2 Open the folder
+3 Open index.html in any modern web browser
+📌 How It Works
+Users type a task in the input field
+Click Add or press Enter
+Task appears in the list with:
+Checkbox (mark complete)
+Edit icon (update task text)
+Delete icon (remove task)
+Statistics update automatically in real time
