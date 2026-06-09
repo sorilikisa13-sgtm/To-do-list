@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do </title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <div class="logo-circle">
+            <i class="fa-solid fa-check"></i>
+        </div>
+
+        <div>
+            <h1>To-Do List</h1>
+            <p>Stay organized and productive</p>
+        </div>
+    </div>
+
+    <div class="input-box">
+        <input type="text" id="taskInput" placeholder="Add a new task...">
+
+        <button id="addBtn">
+            <i class="fa-solid fa-plus"></i>
+            Add
+        </button>
+    </div>
+
+    
+    <div class="stats">
+        <div class="card">
+            <h2 id="activeCount" class="blue">0</h2>
+            <p>Active</p>
+        </div>
+
+        <div class="card">
+            <h2 id="completedCount" class="green">0</h2>
+            <p>Completed</p>
+        </div>
+
+        <div class="card">
+            <h2 id="totalCount">0</h2>
+            <p>Total</p>
+        </div>
+    </div>
+
+    
+    <div class="tasks" id="taskList"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
